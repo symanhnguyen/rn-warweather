@@ -72,8 +72,15 @@ const Weather = () => {
         }
         style={{ marginTop: 50 }}
       >
-        <Text style={styles.title}>Current War Weather</Text>
-        <Text style={{ alignItems: "center", textAlign: "center" }}>
+        <Text style={styles.title}>War Weather</Text>
+        <Text
+          style={{
+            color: "#346751",
+            fontWeight: "bold",
+            alignItems: "center",
+            textAlign: "center",
+          }}
+        >
           Your Location
         </Text>
         <View style={styles.current}>
@@ -160,19 +167,15 @@ const Weather = () => {
 export default Weather;
 
 const styles = StyleSheet.create({
-  hour:{
-   padding: 6,
-   alignItems: 'center',
+  hour: {
+    padding: 6,
+    alignItems: "center",
   },
 
-  smallIcon:{
-     width: 100,
-     height: 100,
+  smallIcon: {
+    width: 100,
+    height: 100,
   },
-
-
-
-
 
   info: {
     width: Dimensions.get("screen").width / 2.5,

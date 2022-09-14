@@ -4,10 +4,10 @@
     "slug": "war-weather",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/iconwarweather.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splashwarweather.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
